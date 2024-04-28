@@ -28,7 +28,7 @@ function App() {
         preset='night'
       />
 
-      <ScrollControls pages={5.5} >
+      <ScrollControls pages={5.2} damping={0.1}>
 
         <BgModel scale={0.2} position={[0.7, 0.4, 3.9]} rotation={[1.3, -1.7, 0]} />
         <BgModel1 scale={0.1} position={[-2.7, 0.7, 3]} rotation={[0.3, 2.0, 0]} />
