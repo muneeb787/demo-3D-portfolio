@@ -1,6 +1,5 @@
 // @flow strict
 import { MdDownload } from "react-icons/md";
-import { RiContactsFill } from "react-icons/ri";
 
 function Navbar() {
   return (
@@ -9,7 +8,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <a
             href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
+            className=" text-green-500 text-3xl font-bold">
             Muneeb A.
           </a>
         </div>
