@@ -48,21 +48,21 @@ function HeroSection() {
             <a
               href={personalData.github}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-white-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </a>
             <a
               href={personalData.linkedIn}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-white-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </a>
             <a
               href={personalData.facebook}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-white-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
             </a>
