@@ -6,7 +6,7 @@ import gsap from 'gsap'
 import { MeshStandardMaterial } from 'three';
 
 export function BgModel1(props) {
-  const { nodes, materials } = useGLTF('./src/utils/models/bgchips-transformed.glb')
+  const { nodes, materials } = useGLTF('/bgchips-transformed.glb')
 
   const robot = useRef()
   const scroll = useScroll()
@@ -61,4 +61,4 @@ export function BgModel1(props) {
   )
 }
 
-useGLTF.preload('./src/utils/models/bgchips-transformed.glb')
+useGLTF.preload('/bgchips-transformed.glb')
