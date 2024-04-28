@@ -3,7 +3,6 @@
 import { BsPersonWorkspace } from "react-icons/bs";
 
 import lottieFile from '../utils/lottie/study.json';
-import heroSvg from "../utils/hero.svg"
 import blurSvg from "../utils/blur-23.svg"
 
 import AnimationLottie from "../utils/helper/animation-lottie";
@@ -33,12 +32,6 @@ const educations = [
 function Education() {
   return (
     <div id="education" className="relative z-50 my-12 lg:my-24 border-[#25213b]">
-      {/* <img
-        src={heroSvg}
-        alt="Hero"
-        className="absolute top-0 -z-10"
-      /> */}
-
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#0756755d]"></span>
