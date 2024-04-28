@@ -27,20 +27,20 @@ const personalData = {
 function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
-      <img
+      {/* <img
         src={heroSvg}
         alt="Hero"
         className="absolute -top-[98px] -z-10"
-      />
+      /> */}
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className=" text-pink-500">{personalData.name}</span>
+            <span className=" text-green-500">{personalData.name}</span>
             {` , I'm a Professional `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>
+            <span className=" text-green-500">{personalData.designation}</span>
             .
           </h1>
 
@@ -69,14 +69,14 @@ function HeroSection() {
             <a
               href={personalData.leetcode}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text--500 hover:scale-125 duration-300"
             >
               <SiLeetcode size={30} />
             </a>
             <a
               href={personalData.twitter}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-[#0f8b8559]-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
             </a>
@@ -84,7 +84,7 @@ function HeroSection() {
 
           <div className="flex items-center gap-3">
 
-            <a className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
+            <a className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-green-500 to-grey-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
             >
               <span>Get Resume</span>
               <MdDownload size={16} />
@@ -92,10 +92,10 @@ function HeroSection() {
           </div>
 
         </div>
-        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+        <div className="order-1 lg:order-2 from-[#47788b44] border-[#0f8b8559] relative rounded-lg border bg-gradient-to-r to-[#0756755d]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-green-500 to-violet-600"></div>
-            <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
+            <div className="h-[1px] w-full bg-gradient-to-r from-[#0f8b85a0]-600 to-transparent"></div>
           </div>
           <div className="px-4 lg:px-8 py-5">
             <div className="flex flex-row space-x-2">
